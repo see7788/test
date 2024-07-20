@@ -1,0 +1,12 @@
+# packages:
+#   - "serverapi"
+#   - "curd_server"
+#   - "web"
+#   - "electron-vite"
+# pnpm recursive list -r --depth -1 查看命名空间下所有包
+# pnpm prune  去掉没用到的依赖
+# pnpm add react -w 全局公共依赖  -wD开发依赖
+# pnpm add react --workspace 
+# pnpm add react --filter pkg1(项目名)
+#  Remove-Item -Path node_modules -Recurse -Force  //用PowerShell递归删除node_modules
+# pnpm cache clean --force  //清理缓存
